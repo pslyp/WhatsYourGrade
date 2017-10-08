@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/classroom"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.pslyp.m1.whatsyourgrade.Main2Activity">
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#DFFFFFFF"
+        android:text="AAA"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/gradeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:background="#DFFFFFFF"
+        android:gravity="center"
+        android:text="B"
+        android:textSize="290dp" />
+
+</LinearLayout>
